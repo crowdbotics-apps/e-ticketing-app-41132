@@ -23,7 +23,7 @@ const AuctionScreen = () => {
       </View>
       <View style={styles.bidContainer}>
         <Text style={styles.bidLabel}>Enter Bid Amount (USD)</Text>
-        <TextInput style={[styles.bidInput, styles.QqXbboBk]} value={bidAmount} onChangeText={setBidAmount} keyboardType="numeric" />
+        <TextInput style={[styles.bidInput, styles.UOuvQBIo]} value={bidAmount} onChangeText={setBidAmount} keyboardType="numeric" />
         <TouchableOpacity style={styles.submitBidButton} onPress={handleBidSubmit}>
           <Text style={styles.submitBidButtonText}>Submit Bid</Text>
         </TouchableOpacity>
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
     height: 50,
     marginTop: 20
   },
-  QqXbboBk: {
+  UOuvQBIo: {
     width: "50%"
   }
 });
